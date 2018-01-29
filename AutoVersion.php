@@ -23,7 +23,7 @@
   $this->headScript()->prependFile($this->basePath() . AutoVersion::version('/js/application.js'))
 
   Plain html example
-  <script type="text/javascript" src="<?php AutoVersion::version('/js/application.js') ?>"></script>
+  <script type="text/javascript" src="<?php echo AutoVersion::version('/js/application.js') ?>"></script>
 
   
   The client sees this:
